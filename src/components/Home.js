@@ -3,7 +3,9 @@ import React from 'react';
 const Home = () => {
   return (
     <div>
-      {/*{code here}*/}
+      <h1>Home Page</h1>
+      <p>This is a home page. It has lots of home type things on it.</p>
+
     </div>
   );
 };
