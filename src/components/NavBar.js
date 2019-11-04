@@ -11,7 +11,7 @@ const link = {
 
 const NavBar = () => {
   return (
-    <div>
+    <div className="navbar">
       <NavLink
         to="/"
         exact
@@ -29,7 +29,7 @@ const NavBar = () => {
         }}
       >Movies</NavLink>
       <NavLink
-        to="directors" npm
+        to="/directors" npm
         exact
         style={link}
         activeStyle={{
